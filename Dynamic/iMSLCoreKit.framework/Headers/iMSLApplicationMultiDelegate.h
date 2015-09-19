@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLCoreMultiDelegate.h>
+#import "iMSLCoreMultiDelegate.h"
 
 @interface iMSLApplicationMultiDelegate : iMSLCoreMultiDelegate
 

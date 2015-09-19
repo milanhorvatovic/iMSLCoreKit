@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Milan Horvatovic. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLCoreMultiDelegate.h>
+#import "iMSLCoreMultiDelegate.h"
 
 @interface iMSLMultiDelegate : iMSLCoreMultiDelegate
 

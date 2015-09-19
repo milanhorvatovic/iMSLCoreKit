@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLObject.h>
-#import <iMSLCoreKit/iMSLProtocolProtected.h>
+#import "iMSLObject.h"
+#import "iMSLProtocolProtected.h"
 
 @interface iMSLObject () <
 iMSLCoreInitProtocolProtected

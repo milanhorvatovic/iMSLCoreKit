@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLCDObjectManager.h>
+#import "iMSLCDObjectManager.h"
 
 typedef NS_ENUM(NSUInteger, PredicateConditionLogicalType) {
     PredicateConditionLogicalTypeUnknow = 0,

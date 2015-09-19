@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLObject.h>
+#import "iMSLObject.h"
 
 @class iMSLApplicationHandler;
 
