@@ -1,5 +1,5 @@
 //
-//  NSObject+iMSL.h
+//  iMSLProtocolProtected.h
 //  iMSLCoreKit
 //
 //  Created by Milan Horvatovic on 07/08/15.
@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+//@import Foundation;
 
-@interface NSObject (iMSL)
+@protocol iMSLCoreInitProtocolProtected <NSObject>
+
+- (void)_willInit;
+- (void)_becomeInit;
+- (void)_didInit;
 
 @end
