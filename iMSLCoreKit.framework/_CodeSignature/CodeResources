@@ -124,10 +124,6 @@
 		<data>
 		Ru+siAA2F/j+MvVeZvZJBejfYTg=
 		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		yMre4eqRlR7PrwX2MFZ3AcbH+4c=
-		</data>
 		<key>PrivateHeaders/iMSLCDObjectManager_Extension.h</key>
 		<data>
 		voIGr4TnJ0cpeEFrVpsrMqLo8/o=
@@ -262,10 +258,6 @@
 		<key>Headers/iMSLWeakWrapper.h</key>
 		<data>
 		kgaxOQmgXTB86RwmzkKzk3dA1B4=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		yMre4eqRlR7PrwX2MFZ3AcbH+4c=
 		</data>
 		<key>PrivateHeaders/iMSLCDObjectManager_Extension.h</key>
 		<data>
