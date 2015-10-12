@@ -7,14 +7,47 @@
 //
 
 #import <Foundation/Foundation.h>
-//@import Foundation;
 
-typedef uint32_t CC_LONG;
-//#import <CommonCrypto/CommonDigest.h>
-//#import <CommonCrypto/CommonCrypto.h>
-//@import CommonCrypto;
+#import "iMSLDefines.h"
 
-NSData *NSDataXOREncryptionWithKey(NSString *key, NSData *data);
+#ifndef iMSLCryptoFunctions_H_
+#define iMSLCryptoFunctions_H_
 
-NSData *NSDataCCHashFunction(unsigned char *(function)(const void *data, CC_LONG len, unsigned char *md), CC_LONG digestLength, NSData *data);
-NSString *NSStringCCHashFunction(unsigned char *(function)(const void *data, CC_LONG len, unsigned char *md), CC_LONG digestLength, NSData *data);
+#pragma mark - Public
+#pragma mark - Encoding
+iMSL_INLINE NSStringEncoding NSStringEncodingFromEncodingType(iMSLStringEncodingType encodingType) {
+    switch (encodingType) {
+        case kStringEncodingTypeASCII:
+            return NSASCIIStringEncoding;
+            break;
+        case kStringEncodingTypeUnicode:
+            return NSUnicodeStringEncoding;
+            break;
+        case kStringEncodingTypeUTF8:
+            return NSUTF8StringEncoding;
+            break;
+            /*
+        case kStringEncodingTypeUTF16:
+            return NSUTF16StringEncoding;
+            break;
+             */
+        case kStringEncodingTypeUTF16BE:
+            return NSUTF16BigEndianStringEncoding;
+            break;
+        case kStringEncodingTypeUTF32:
+            return NSUTF32StringEncoding;
+            break;
+        case kStringEncodingTypeUTF32BE:
+            return NSUTF32BigEndianStringEncoding;
+            break;
+        case kStringEncodingTypeCP1250:
+            return NSWindowsCP1250StringEncoding;
+            break;
+        case kStringEncodingTypeUnknown:
+        default:
+            return 0;
+            break;
+    }
+}
+
+#endif /* iMSLCryptoFunctions_H_ */

@@ -25,7 +25,8 @@ typedef enum {
 
 + (NSString *)getIdentityDirectoryPath;
 
-+ (NSString *)getDatabaseDirectoryPath;
++ (NSString *)coreDataDirectoryPath;
++ (NSString *)coreDataSQLiteDirectoryPath;
 
 + (void)createDirectoryHierarchy;
 

@@ -6,13 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//@import Foundation;
-
-extern NSString * const kSettingsManagerKeyPathFirstRunApplication;
-extern NSString * const kSettingsManagerKeyPathFirstRunApplicationPrivate;
-
-extern NSString * const kSettingsManagerKeyPathApiToken;
-extern NSString * const kSettingsManagerKeyPathApiTokenPrivate;
 
 @interface iMSLSettingsManager : NSObject
 
@@ -20,9 +13,6 @@ extern NSString * const kSettingsManagerKeyPathApiTokenPrivate;
 
 + (BOOL)isFirstRunApplication;
 + (void)setIsFirstRunApplication:(BOOL)firstRun;
-
-+ (NSString *)appVersion;
-+ (NSString *)appVersionPrevious;
 
 + (void)clearData;
 

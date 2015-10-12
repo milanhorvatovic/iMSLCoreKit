@@ -26,8 +26,9 @@ extern const unsigned char CoreKitFWVersionString[];
 #import <iMSLCoreKit/iMSLClassLoader.h>
 
 #pragma mark - Common -
+#import <iMSLCoreKit/iMSLMacros.h>
 #import <iMSLCoreKit/iMSLDefines.h>
-#import <iMSLCoreKit/iMSLCryptoFunctions.h>
+#import <iMSLCoreKit/iMSLCoreFunctions.h>
 #import <iMSLCoreKit/iMSLCoreValidatesFunctions.h>
 
 #pragma mark - Object
@@ -49,21 +50,30 @@ extern const unsigned char CoreKitFWVersionString[];
 #pragma mark - Cipher
 #import <iMSLCoreKit/iMSLAESBlockCipher.h>
 
+#pragma mark - Crypto
+#import <iMSLCoreKit/iMSLCryptoFunctions.h>
+
+#pragma mark - CoreData
+#import <iMSLCoreKit/iMSLCoreDataManager.h>
+#pragma mark - Object
+#import <iMSLCoreKit/iMSLCDObjectManager.h>
+#pragma mark |-> SQLite
+#import <iMSLCoreKit/iMSLCoreDataSQLiteManager.h>
+
 #pragma mark - Data
 #pragma mark Transform
 #import <iMSLCoreKit/iMSLValueTransformer.h>
 #import <iMSLCoreKit/iMSLArrayValueTransformer.h>
 
 #pragma mark - Manager
-#pragma mark |-> Database
-#import <iMSLCoreKit/iMSLCDObjectManager.h>
-#import <iMSLCoreKit/iMSLDatabaseManager.h>
 #pragma mark |-> Directory
 #import <iMSLCoreKit/iMSLDirectoryManager.h>
 #pragma mark |-> Execution
 #import <iMSLCoreKit/iMSLExecutionManager.h>
 #pragma mark |-> Settings
 #import <iMSLCoreKit/iMSLSettingsManager.h>
+#import <iMSLCoreKit/iMSLSettingsManager+ApplicationVersion.h>
+#import <iMSLCoreKit/iMSLSettingsManager+Crypto.h>
 #pragma mark |-> UDID
 #import <iMSLCoreKit/iMSLUDIDManager.h>
 
