@@ -25,20 +25,20 @@
 
 @interface UIDevice (ApplicationVersion)
 
-- (NSString *)appNameAndVersionNumberDisplayString;
+- (NSString *)applicationNameAndVersionNumberDisplayString;
 
-- (NSString *)appName;
+- (NSString *)applicationName;
 
-- (NSString *)appVersionString;
-- (NSNumber *)appVersionNumber;
+- (NSString *)applicationVersionString;
+- (NSNumber *)applicationVersionNumber;
 
 #pragma mark Version
-- (NSString *)appMajorVersionString;
-- (NSNumber *)appMajorVersionNumber;
+- (NSString *)applicationMajorVersionString;
+- (NSNumber *)applicationMajorVersionNumber;
 
 #pragma mark Build Version
-- (NSString *)appMinorVersionString;
-- (NSNumber *)appMinorVersionNumber;
+- (NSString *)applicationMinorVersionString;
+- (NSNumber *)applicationMinorVersionNumber;
 
 @end
 

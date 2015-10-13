@@ -6,9 +6,9 @@
 //  Copyright © 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLCoreKit.h>
+#import "iMSLSettingsManager.h"
 
-#import "iMSLCryptoFunctions.h"
+#import "iMSLDefines.h"
 
 extern NSString * const kSettingsCryptoPlistKeyDefaultEncodingTypeKey;
 extern NSString * const kSettingsCryptoPlistKeyDefaultDecodingTypeString;

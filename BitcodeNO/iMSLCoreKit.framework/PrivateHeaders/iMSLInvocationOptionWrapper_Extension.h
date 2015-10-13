@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 iMSoft Labs. All rights reserved.
 //
 
-#import "iMSLInvocationOptionWrapper.h"
+#import <iMSLCoreKit/iMSLInvocationOptionWrapper.h>
 
 @interface iMSLInvocationOptionWrapper ()
 

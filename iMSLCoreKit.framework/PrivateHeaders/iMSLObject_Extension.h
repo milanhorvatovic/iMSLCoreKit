@@ -7,7 +7,7 @@
 //
 
 #import <iMSLCoreKit/iMSLObject.h>
-#import "iMSLProtocolProtected.h"
+#import <iMSLCoreKit/iMSLProtocolProtected.h>
 
 @interface iMSLObject () <
 iMSLCoreInitProtocolProtected

@@ -1,0 +1,6 @@
+framework module iMSLCoreKit {
+  umbrella header "iMSLCoreKit.h"
+
+  export *
+  module * { export * }
+}

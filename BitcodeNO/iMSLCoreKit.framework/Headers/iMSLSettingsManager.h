@@ -5,15 +5,16 @@
 //  Copyright (c) 2014 iMSoft Labs. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "iMSLObject.h"
 
-@interface iMSLSettingsManager : NSObject
+@interface iMSLSettingsManager : iMSLObject
 
 + (instancetype)sharedInstance;
-
-+ (BOOL)isFirstRunApplication;
-+ (void)setIsFirstRunApplication:(BOOL)firstRun;
 
 + (void)clearData;
 
 @end
+
+#import "iMSLSettingsManager+Application.h"
+#import "iMSLSettingsManager+Crypto.h"
+#import "iMSLSettingsManager+CoreData.h"

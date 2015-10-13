@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/UIDevice+iMSL.h</key>
 		<data>
-		WjNAacE6UuoNAvQ5Q6mD1cywsYo=
+		t+U8dWuakswHwcGr9IRh/ETBpSE=
 		</data>
 		<key>Headers/iMSLAESBlockCipher.h</key>
 		<data>
@@ -40,10 +40,6 @@
 		<data>
 		2YjXOqLFR23RZCF98+F1JMZOQeI=
 		</data>
-		<key>Headers/iMSLCDObjectManager.h</key>
-		<data>
-		zaqeKC6Mh/5OxPZXQdtBo8myMAU=
-		</data>
 		<key>Headers/iMSLClassLoader.h</key>
 		<data>
 		a0sEIUJDz4puf+wDohkDXA32D8g=
@@ -52,9 +48,13 @@
 		<data>
 		OSxontUT1IniXnfhgNHcj/POWsk=
 		</data>
+		<key>Headers/iMSLCoreDataObjectManager.h</key>
+		<data>
+		LjoW9nvNVCbKa/6y2yKjieH249E=
+		</data>
 		<key>Headers/iMSLCoreDataSQLiteManager.h</key>
 		<data>
-		wtMxTVFrWgXlibNWInA+LlZoyRA=
+		Z6/WObdafcrkFf+Kpx70YWPEScw=
 		</data>
 		<key>Headers/iMSLCoreFunctions.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/iMSLCoreKit.h</key>
 		<data>
-		o8lbZ6/Wcr/yTfthToA1W9zXZXM=
+		lSh3HJsQaqf80qtMizUMcXwlho4=
 		</data>
 		<key>Headers/iMSLCoreMultiDelegate.h</key>
 		<data>
@@ -112,21 +112,21 @@
 		<data>
 		pJ/DLL8UseLB7iv68+teojnl9mY=
 		</data>
-		<key>Headers/iMSLSettingsManager+ApplicationVersion.h</key>
+		<key>Headers/iMSLSettingsManager+Application.h</key>
 		<data>
-		fi0cGiy2hm0rBnr64HSZqSVjGZw=
+		vmkxGxcLL3xrLHPtG/6BxBF9fGk=
 		</data>
 		<key>Headers/iMSLSettingsManager+CoreData.h</key>
 		<data>
-		mW0J6CofROtLFbXHNVMN5lglFSE=
+		LDrW9Fdig5wJdMTNFl7jVl3hQow=
 		</data>
 		<key>Headers/iMSLSettingsManager+Crypto.h</key>
 		<data>
-		NFPjltDdlPmQPZ5JH2Q8ZcAxd38=
+		NMtJBuqMNYV62S5mLgLOywcmH8I=
 		</data>
 		<key>Headers/iMSLSettingsManager.h</key>
 		<data>
-		9KNMNZP2+VrVPaUCLLBsrq8pD5I=
+		E9YSL2iul1U0h8cXY8uaV7jOLjk=
 		</data>
 		<key>Headers/iMSLSpecifiedMultiDelegate.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/iMSLUDIDManager.h</key>
 		<data>
-		Uoy1Svjz0WlyDyozEo97Oe4lCPc=
+		1/2GyBHti71mOo4rMojGlZLt2tE=
 		</data>
 		<key>Headers/iMSLValueTransformer.h</key>
 		<data>
@@ -148,17 +148,21 @@
 		<data>
 		vW/LspGYIgk5JyLW8eoUGFM2RYc=
 		</data>
-		<key>PrivateHeaders/iMSLCDObjectManager_Extension.h</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		voIGr4TnJ0cpeEFrVpsrMqLo8/o=
+		yMre4eqRlR7PrwX2MFZ3AcbH+4c=
+		</data>
+		<key>PrivateHeaders/iMSLCoreDataObjectManager_Extension.h</key>
+		<data>
+		pkM9noSdHM8tq6POvSCFqnx1X14=
 		</data>
 		<key>PrivateHeaders/iMSLInvocationOptionWrapper_Extension.h</key>
 		<data>
-		X0h3aX9UD18RMhYsv903qdtoTPI=
+		ws3VkbPUOKutPY6siGwqCiHrDwg=
 		</data>
 		<key>PrivateHeaders/iMSLObject_Extension.h</key>
 		<data>
-		GUiM7NCIxyLTnajGPQcVpOzibrc=
+		4bqwdnNwFaTwkhufNKZZU9irOHI=
 		</data>
 		<key>PrivateHeaders/iMSLProtocolProtected.h</key>
 		<data>
@@ -185,7 +189,7 @@
 		</data>
 		<key>Headers/UIDevice+iMSL.h</key>
 		<data>
-		WjNAacE6UuoNAvQ5Q6mD1cywsYo=
+		t+U8dWuakswHwcGr9IRh/ETBpSE=
 		</data>
 		<key>Headers/iMSLAESBlockCipher.h</key>
 		<data>
@@ -203,10 +207,6 @@
 		<data>
 		2YjXOqLFR23RZCF98+F1JMZOQeI=
 		</data>
-		<key>Headers/iMSLCDObjectManager.h</key>
-		<data>
-		zaqeKC6Mh/5OxPZXQdtBo8myMAU=
-		</data>
 		<key>Headers/iMSLClassLoader.h</key>
 		<data>
 		a0sEIUJDz4puf+wDohkDXA32D8g=
@@ -215,9 +215,13 @@
 		<data>
 		OSxontUT1IniXnfhgNHcj/POWsk=
 		</data>
+		<key>Headers/iMSLCoreDataObjectManager.h</key>
+		<data>
+		LjoW9nvNVCbKa/6y2yKjieH249E=
+		</data>
 		<key>Headers/iMSLCoreDataSQLiteManager.h</key>
 		<data>
-		wtMxTVFrWgXlibNWInA+LlZoyRA=
+		Z6/WObdafcrkFf+Kpx70YWPEScw=
 		</data>
 		<key>Headers/iMSLCoreFunctions.h</key>
 		<data>
@@ -225,7 +229,7 @@
 		</data>
 		<key>Headers/iMSLCoreKit.h</key>
 		<data>
-		o8lbZ6/Wcr/yTfthToA1W9zXZXM=
+		lSh3HJsQaqf80qtMizUMcXwlho4=
 		</data>
 		<key>Headers/iMSLCoreMultiDelegate.h</key>
 		<data>
@@ -275,21 +279,21 @@
 		<data>
 		pJ/DLL8UseLB7iv68+teojnl9mY=
 		</data>
-		<key>Headers/iMSLSettingsManager+ApplicationVersion.h</key>
+		<key>Headers/iMSLSettingsManager+Application.h</key>
 		<data>
-		fi0cGiy2hm0rBnr64HSZqSVjGZw=
+		vmkxGxcLL3xrLHPtG/6BxBF9fGk=
 		</data>
 		<key>Headers/iMSLSettingsManager+CoreData.h</key>
 		<data>
-		mW0J6CofROtLFbXHNVMN5lglFSE=
+		LDrW9Fdig5wJdMTNFl7jVl3hQow=
 		</data>
 		<key>Headers/iMSLSettingsManager+Crypto.h</key>
 		<data>
-		NFPjltDdlPmQPZ5JH2Q8ZcAxd38=
+		NMtJBuqMNYV62S5mLgLOywcmH8I=
 		</data>
 		<key>Headers/iMSLSettingsManager.h</key>
 		<data>
-		9KNMNZP2+VrVPaUCLLBsrq8pD5I=
+		E9YSL2iul1U0h8cXY8uaV7jOLjk=
 		</data>
 		<key>Headers/iMSLSpecifiedMultiDelegate.h</key>
 		<data>
@@ -297,7 +301,7 @@
 		</data>
 		<key>Headers/iMSLUDIDManager.h</key>
 		<data>
-		Uoy1Svjz0WlyDyozEo97Oe4lCPc=
+		1/2GyBHti71mOo4rMojGlZLt2tE=
 		</data>
 		<key>Headers/iMSLValueTransformer.h</key>
 		<data>
@@ -307,17 +311,21 @@
 		<data>
 		kgaxOQmgXTB86RwmzkKzk3dA1B4=
 		</data>
-		<key>PrivateHeaders/iMSLCDObjectManager_Extension.h</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		voIGr4TnJ0cpeEFrVpsrMqLo8/o=
+		yMre4eqRlR7PrwX2MFZ3AcbH+4c=
+		</data>
+		<key>PrivateHeaders/iMSLCoreDataObjectManager_Extension.h</key>
+		<data>
+		pkM9noSdHM8tq6POvSCFqnx1X14=
 		</data>
 		<key>PrivateHeaders/iMSLInvocationOptionWrapper_Extension.h</key>
 		<data>
-		X0h3aX9UD18RMhYsv903qdtoTPI=
+		ws3VkbPUOKutPY6siGwqCiHrDwg=
 		</data>
 		<key>PrivateHeaders/iMSLObject_Extension.h</key>
 		<data>
-		GUiM7NCIxyLTnajGPQcVpOzibrc=
+		4bqwdnNwFaTwkhufNKZZU9irOHI=
 		</data>
 		<key>PrivateHeaders/iMSLProtocolProtected.h</key>
 		<data>

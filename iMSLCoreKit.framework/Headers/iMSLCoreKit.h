@@ -56,7 +56,7 @@ extern const unsigned char CoreKitFWVersionString[];
 #pragma mark - CoreData
 #import <iMSLCoreKit/iMSLCoreDataManager.h>
 #pragma mark - Object
-#import <iMSLCoreKit/iMSLCDObjectManager.h>
+#import <iMSLCoreKit/iMSLCoreDataObjectManager.h>
 #pragma mark |-> SQLite
 #import <iMSLCoreKit/iMSLCoreDataSQLiteManager.h>
 
@@ -72,8 +72,9 @@ extern const unsigned char CoreKitFWVersionString[];
 #import <iMSLCoreKit/iMSLExecutionManager.h>
 #pragma mark |-> Settings
 #import <iMSLCoreKit/iMSLSettingsManager.h>
-#import <iMSLCoreKit/iMSLSettingsManager+ApplicationVersion.h>
+#import <iMSLCoreKit/iMSLSettingsManager+Application.h>
 #import <iMSLCoreKit/iMSLSettingsManager+Crypto.h>
+#import <iMSLCoreKit/iMSLSettingsManager+CoreData.h>
 #pragma mark |-> UDID
 #import <iMSLCoreKit/iMSLUDIDManager.h>
 

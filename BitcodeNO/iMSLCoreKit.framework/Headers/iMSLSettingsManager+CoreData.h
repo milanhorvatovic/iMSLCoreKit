@@ -6,7 +6,7 @@
 //  Copyright © 2015 iMSoft Labs. All rights reserved.
 //
 
-#import <iMSLCoreKit/iMSLCoreKit.h>
+#import "iMSLSettingsManager.h"
 
 @interface iMSLSettingsManager (CoreDataSQLite)
 
